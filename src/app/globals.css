@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  background-color: white;
+  color: black;
+
+}
+::-webkit-scrollbar{
+  display: none;
+}
+
+.project:hover{
+  background-position-y: bottom;
+  transition: all 2.10s ;
+}
+.project{
+  background-position-y: top;
+  transition: all 1.50s ;
+}
